@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github"
+		fetch="https://github.com/Ananda-Aropa" />
+
+	<project path="aaropa/manifest" name="aaropa_manifest" remote="github" />
+	<project path="aaropa/bootloader/grub/android-prober" name="grub-android-prober" remote="github" />
+	<project path="aaropa/bootloader/grub/themes" name="grub2-themes" remote="github" />
+	<project path="aaropa/bootloader/refind/efifs" name="efifs-debian" remote="github" />
+	<project path="aaropa/bootloader/refind/refind-files-i386" name="refind-files-i386" remote="github" />
+	<project path="aaropa/busybox" name="aaropa_busybox" remote="github" />
+	<project path="aaropa/calamares" name="aaropa_calamares" remote="github" />
+	<project path="aaropa/calamares_modules/bass" name="aaropa_calamares_modules_bass" remote="github" />
+	<project path="aaropa/calamares_branding/bassos" name="calamares_branding_bassos" remote="github" />
+	<project path="aaropa/calamares_branding/blissos" name="calamares_branding_blissos" remote="github" />
+	<project path="aaropa/calamares_branding/lineageos" name="calamares_branding_lineageos" remote="github" />
+	<project path="aaropa/debian/build_deb" name="build-deb" remote="github" />
+	<project path="aaropa/debian/keyring" name="aaropa_keyring" remote="github" />
+	<project path="aaropa/debian/repo" name="aaropa_deb_repo" remote="github" />
+	<project path="aaropa/debian/repo_testing" name="aaropa_deb_repo_testing" remote="github" />
+	<project path="aaropa/debian/queue" name="aaropa_debian_queue" remote="github" />
+	<project path="aaropa/external/android-tools" name="android-tools" remote="github" />
+	<project path="aaropa/external/clang-android-debian" name="clang-android-debian" remote="github" />
+	<project path="aaropa/linux/initrd" name="initrd-aaropa-linux" remote="github" />
+	<project path="aaropa/linux/zenith" name="linux-zenith" remote="github" />
+	<project path="aaropa/rootfs/base" name="aaropa_rootfs_base" remote="github" />
+	<project path="aaropa/rootfs/builder" name="aaropa_rootfs_builder" remote="github" />
+	<project path="aaropa/rootfs/installer/bass" name="aaropa_rootfs_installer_bass" remote="github" />
+	<project path="aaropa/rootfs/installer/blissos" name="aaropa_rootfs_installer_blissos" remote="github" />
+	<project path="aaropa/rootfs/qemu" name="aaropa_rootfs_qemu" remote="github" />
+</manifest>
