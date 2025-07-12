@@ -3,8 +3,7 @@
 	<remote name="github"
 		fetch="https://github.com/Ananda-Aropa" />
 
-	<project path="aaropa/manifest" name="aaropa_manifest" remote="github" revision="main"/>
-	<project path="aaropa/bootloader/grub/android-prober" name="grub-android-prober" remote="github" revision="main"/>
+	<project path="aaropa/bootloader/grub/android-prober" name="grub-android-prober" remote="github" revision="master"/>
 	<project path="aaropa/bootloader/grub/themes" name="grub2-themes" remote="github" revision="master"/>
 	<project path="aaropa/bootloader/refind/efifs" name="efifs-debian" remote="github" revision="main"/>
 	<project path="aaropa/bootloader/refind/refind-files-i386" name="refind-files-i386" remote="github" revision="main"/>
@@ -14,12 +13,13 @@
 	<project path="aaropa/calamares_branding/bassos" name="calamares_branding_bassos" remote="github" revision="main"/>
 	<project path="aaropa/calamares_branding/blissos" name="calamares_branding_blissos" remote="github" revision="main"/>
 	<project path="aaropa/calamares_branding/lineageos" name="calamares_branding_lineageos" remote="github" revision="main"/>
-	<project path="aaropa/debian/build_deb" name="build-deb" remote="github" revision="main"/>
+	<project path="aaropa/debian/builder/package" name="build-deb" remote="github" revision="main"/>
+	<project path="aaropa/debian/builder/repo" name="build-deb-repo" remote="github" revision="main"/>
 	<project path="aaropa/debian/keyring" name="aaropa_keyring" remote="github" revision="main"/>
 	<project path="aaropa/debian/repo" name="aaropa_deb_repo" remote="github" revision="main"/>
 	<project path="aaropa/debian/repo_testing" name="aaropa_deb_repo_testing" remote="github" revision="main"/>
 	<project path="aaropa/debian/queue" name="aaropa_debian_queue" remote="github" revision="main"/>
-	<project path="aaropa/external/android-tools" name="android-tools" remote="github" revision="main"/>
+	<project path="aaropa/external/android-tools" name="android-tools" remote="github" revision="master"/>
 	<project path="aaropa/external/clang-android-debian" name="clang-android-debian" remote="github" revision="main"/>
 	<project path="aaropa/linux/initrd" name="initrd-aaropa-linux" remote="github" revision="main"/>
 	<project path="aaropa/linux/zenith" name="linux-zenith" remote="github" revision="main"/>
