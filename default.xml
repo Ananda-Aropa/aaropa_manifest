@@ -3,29 +3,31 @@
 	<remote name="github"
 		fetch="https://github.com/Ananda-Aropa" />
 
-	<project path="aaropa/bootloader/grub/android-prober" name="grub-android-prober" remote="github" revision="master"/>
-	<project path="aaropa/bootloader/grub/themes" name="grub2-themes" remote="github" revision="master"/>
-	<project path="aaropa/bootloader/refind/efifs" name="efifs-debian" remote="github" revision="main"/>
-	<project path="aaropa/bootloader/refind/refind-files-i386" name="refind-files-i386" remote="github" revision="main"/>
-	<project path="aaropa/busybox" name="aaropa_busybox" remote="github" revision="main"/>
-	<project path="aaropa/calamares" name="aaropa_calamares" remote="github" revision="main"/>
-	<project path="aaropa/calamares_modules/bass" name="aaropa_calamares_modules_bass" remote="github" revision="main"/>
-	<project path="aaropa/calamares_branding/bassos" name="calamares_branding_bassos" remote="github" revision="main"/>
-	<project path="aaropa/calamares_branding/blissos" name="calamares_branding_blissos" remote="github" revision="main"/>
-	<project path="aaropa/calamares_branding/lineageos" name="calamares_branding_lineageos" remote="github" revision="main"/>
+	<project path="aaropa/bootloader/grub/android-prober" name="grub-android-prober" remote="github" revision="devel"/>
+	<project path="aaropa/bootloader/grub/themes" name="grub2-themes" remote="github" revision="devel"/>
+	<project path="aaropa/bootloader/refind/efifs" name="efifs-debian" remote="github" revision="devel"/>
+	<project path="aaropa/bootloader/refind/refind-files/i386" name="refind-files-i386" remote="github" revision="devel"/>
+	<project path="aaropa/busybox" name="aaropa_busybox" remote="github" revision="devel"/>
+	<project path="aaropa/calamares/calamares" name="aaropa_calamares" remote="github" revision="devel"/>
+	<project path="aaropa/calamares/modules/bass" name="aaropa_calamares_modules_bass" remote="github" revision="devel"/>
+	<project path="aaropa/calamares/branding/bassos" name="calamares_branding_bassos" remote="github" revision="devel"/>
+	<project path="aaropa/calamares/branding/blissos" name="calamares_branding_blissos" remote="github" revision="devel"/>
+	<project path="aaropa/calamares/branding/lineageos" name="calamares_branding_lineageos" remote="github" revision="devel"/>
 	<project path="aaropa/debian/builder/package" name="build-deb" remote="github" revision="main"/>
-	<project path="aaropa/debian/builder/repo" name="build-deb-repo" remote="github" revision="main"/>
+	<project path="aaropa/debian/builder/repo" name="build-deb-repo" remote="github" revision="devel"/>
 	<project path="aaropa/debian/keyring" name="aaropa_keyring" remote="github" revision="main"/>
-	<project path="aaropa/debian/repo" name="aaropa_deb_repo" remote="github" revision="main"/>
-	<project path="aaropa/debian/repo_testing" name="aaropa_deb_repo_testing" remote="github" revision="main"/>
-	<project path="aaropa/debian/queue" name="aaropa_debian_queue" remote="github" revision="main"/>
-	<project path="aaropa/external/android-tools" name="android-tools" remote="github" revision="master"/>
-	<project path="aaropa/external/clang-android-debian" name="clang-android-debian" remote="github" revision="main"/>
-	<project path="aaropa/linux/initrd" name="initrd-aaropa-linux" remote="github" revision="main"/>
-	<project path="aaropa/linux/zenith" name="linux-zenith" remote="github" revision="main"/>
-	<project path="aaropa/rootfs/base" name="aaropa_rootfs_base" remote="github" revision="main"/>
-	<project path="aaropa/rootfs/builder" name="aaropa_rootfs_builder" remote="github" revision="main"/>
+	<project path="aaropa/debian/repo/stable" name="aaropa_deb_repo" remote="github" revision="main"/>
+	<project path="aaropa/debian/repo/testing" name="aaropa_deb_repo_testing" remote="github" revision="main"/>
+	<project path="aaropa/debian/queue" name="aaropa_debian_queue" remote="github" revision="devel"/>
+	<project path="aaropa/external/android-tools" name="android-tools" remote="github" revision="devel"/>
+	<project path="aaropa/external/clang-android-debian" name="clang-android-debian" remote="github" revision="devel"/>
+	<project path="aaropa/linux/initrd" name="initrd-aaropa-linux" remote="github" revision="devel"/>
+	<project path="aaropa/linux/zenith" name="linux-zenith" remote="github" revision="devel"/>
+	<project path="aaropa/rootfs/base" name="aaropa_rootfs_base" remote="github" revision="latest"/>
+	<project path="aaropa/rootfs/builder" name="aaropa_rootfs_builder" remote="github" revision="minimal"/>
 	<project path="aaropa/rootfs/installer/bass" name="aaropa_rootfs_installer_bass" remote="github" revision="main"/>
 	<project path="aaropa/rootfs/installer/blissos" name="aaropa_rootfs_installer_blissos" remote="github" revision="main"/>
+	<project path="aaropa/rootfs/installer/lineageos" name="aaropa_rootfs_installer_lineageos" remote="github" revision="main"/>
+	<project path="aaropa/rootfs/installer/stack" name="aaropa_rootfs_installer_stack" remote="github" revision="main"/>
 	<project path="aaropa/rootfs/qemu" name="aaropa_rootfs_qemu" remote="github" revision="main"/>
 </manifest>
