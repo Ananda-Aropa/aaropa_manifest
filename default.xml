@@ -10,6 +10,7 @@
 	<project path="aaropa/busybox" name="aaropa_busybox" remote="github" revision="devel"/>
 	<project path="aaropa/calamares/calamares" name="aaropa_calamares" remote="github" revision="devel"/>
 	<project path="aaropa/calamares/modules/bass" name="aaropa_calamares_modules_bass" remote="github" revision="devel"/>
+	<project path="aaropa/calamares/modules/netinstall" name="aaropa_calamares_modules_netinstall" remote="github" revision="devel"/>
 	<project path="aaropa/calamares/branding/bassos" name="calamares_branding_bassos" remote="github" revision="devel"/>
 	<project path="aaropa/calamares/branding/blissos" name="calamares_branding_blissos" remote="github" revision="devel"/>
 	<project path="aaropa/calamares/branding/lineageos" name="calamares_branding_lineageos" remote="github" revision="devel"/>
